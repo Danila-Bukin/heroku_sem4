@@ -1,7 +1,8 @@
 {
   "routes": {
     "/login/": "/login.html"
-  }
+  },
+  
   "headers": {
     "/*": {
       "X-Author": 180419,
