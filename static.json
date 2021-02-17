@@ -9,7 +9,7 @@
       "Access-Control-Allow-Origin": "*"
     },
     "/*": {
-      "X-Author": 180419,
+      "X-Author": 180419
     },
     "/login/": {
       "Content-Type": "text/plain; charset=UTF-8"
