@@ -1,4 +1,4 @@
 function task(x) {
-  Out.log(x*this*this);
+  return x*task.call(this)*task.call(this);
 }
 
