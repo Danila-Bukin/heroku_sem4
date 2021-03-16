@@ -8,7 +8,7 @@
         <script>
             let inp = document.querySelector('input')
             .addEventListener('input', bt.onclick = async () => {
-                let resp = await fetch(inp);
+                let response = await fetch(inp);
                 let result = response.text();
                 this.value = result;
             });
