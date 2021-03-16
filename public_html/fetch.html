@@ -10,6 +10,7 @@
             .addEventListener('input', bt.onclick = async () => {
                 let resp = await fetch(inp);
                 let result = response.text();
+                this.value = result;
             });
         </script>
     </body>
