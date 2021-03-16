@@ -1,1 +1,16 @@
-
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <input id="inp", type="text">
+        <input id="bt" type="button" value="Нажми меня!">
+        <script>
+            let inp = document.querySelector('input')
+            .addEventListener('input', bt.onclick = async () => {
+                let resp = await fetch(inp);
+                let result = response.text();
+            });
+        </script>
+    </body>
+</html>
