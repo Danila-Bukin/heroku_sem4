@@ -9,7 +9,7 @@
             let inp = document.getElementById('inp').value;
             bt.addEventListener("click", async () => {
                 let response = await fetch(inp);
-                let result = await response.text();;
+                let result = await response.text();
                 document.getElementById('inp').value=result;
             });
         </script>
