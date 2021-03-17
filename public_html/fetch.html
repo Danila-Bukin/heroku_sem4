@@ -10,7 +10,7 @@
                 let input = document.getElementById('inp').value;
                 let response = await fetch(input);
                 let result = await response.text();
-                await document.getElementById('inp').value = result;
+                document.getElementById('inp').value = result;
             });
         </script>
     </body>
