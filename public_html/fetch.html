@@ -10,7 +10,7 @@
             bt.addEventListener("click", async () => {
                 let response = await fetch(input);
                 let result = await response.text();
-                document.getElementById('inp').value=result;
+                await document.getElementById('inp').value=result;
             });
         </script>
     </body>
